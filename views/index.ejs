@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PoC</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= data_ppob.length %></p>
+    <select>
+      <% for(var i=0; i<data_ppob.length; i++) { %>
+        <option value="<%= data_ppob[i].id_ppob %>"><%= data_ppob[i].ppob %></option>
+      <% } %>
+    </select>
+
+    <div id="data"></div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('select').on('change', function() {
+            $.ajax({
+                type: 'POST',
+                url: 'http://localhost:3000/dataProduk',
+                dataType: 'json',
+                data : JSON.stringify({
+                  "id_produk": this.value
+                }),
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    console.log("Success",data);
+                    var hosData = "<table>";
+                    $.each(data, function(i){
+                        console.log(data[i].nama_produk)
+                        hosData += "<tr>";
+                        hosData += "<td>";
+                          hosData += data[i].nama_produk;
+                        hosData += "</td>";
+                        hosData += "</tr>";
+                    })
+                    hosData += "</table>";
+                    $("#data").html(hosData);
+                },
+                error: function (data) {
+                    console.log("Error.", data);
+                }
+
+            });
+          });
+        })
+    </script>
+  </body>
+</html>

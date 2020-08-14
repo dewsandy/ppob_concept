@@ -1,0 +1,31 @@
+{
+    "rc" : 200,
+    "rd" : "Sukses",
+    "data" : [
+        {
+            "id_ppob" : 1,
+            "ppob" : "Isi Pulsa",
+            "icon" : ""
+        },
+        {
+            "id_ppob" : 2,
+            "ppob" : "Paket Data",
+            "icon" : ""
+        },
+        {
+            "id_ppob" : 3,
+            "ppob" : "Token Listrik",
+            "icon" : ""
+        },
+        {
+            "id_ppob" : 4,
+            "ppob" : "Voucher Game",
+            "icon" : ""
+        },
+        {
+            "id_ppob" : 5,
+            "ppob" : "Emoney",
+            "icon" : ""
+        }
+    ]
+}
