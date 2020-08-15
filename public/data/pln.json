@@ -1,0 +1,27 @@
+[
+    {
+        "id_provider" : 1,
+        "nama_provider" : "PLN PASCABAYAR"
+    },
+    {
+        "id_provider" : 2,
+        "nama_provider" : "PLN PRABAYAR",
+        "list_produk" : [
+            {
+                "id_produk" : 1,
+                "nama_produk" : "Token 5000",
+                "harga" : 5000
+            },
+            {
+                "id_produk" : 2,
+                "nama_produk" : "Token 10000",
+                "harga" : 10000
+            },
+            {
+                "id_produk" : 3,
+                "nama_produk" : "Token 25000",
+                "harga" : 25000
+            }
+        ]
+    }
+]

@@ -6,6 +6,12 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+const pulsa = require('./public/data/pulsa.json');
+const emoney = require('./public/data/emoney.json');
+const pln = require('./public/data/pln.json');
+const game = require('./public/data/game.json');
+const tagihan = require('./public/data/tagihan.json');
+
 
 var app = express();
 
@@ -24,21 +30,17 @@ app.use('/users', usersRouter);
 
 app.post('/dataProduk', function (req, res) {
   data = req.body.id_produk;
-  console.log(data)
-  let a = [
-    {
-      "id_produk" : "1",
-      "harga" : "1000",
-      "nama_produk" : "Telkomsel 5GB"
-    },
-    {
-      "id_produk" : "2",
-      "harga" : "1000",
-      "nama_produk" : "Telkomsel 6GB"
-    }
-  ]
-  res.send(a);
+  menu = req.body.channel;
+  
+  if(menu=="pulsa") tes = pulsa.filter(a=> a.id_provider==data);
+  if(menu=="emoney") tes = emoney.filter(a=> a.id_provider==data);
+  if(menu=="tagihan") tes = tagihan.filter(a=> a.id_provider==data);
+  if(menu=="game") tes = game.filter(a=> a.id_provider==data);
+  if(menu== "token") tes = pln.filter(a=> a.id_provider==data);
+
+  res.send(tes[0].list_produk);
 });
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

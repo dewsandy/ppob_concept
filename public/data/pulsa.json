@@ -1,0 +1,65 @@
+[
+    {
+        "id_provider" : 1,
+        "nama_provider" : "XL",
+        "list_produk" : [
+            {
+                "id_produk" : 1,
+                "nama_produk" : "XL Pulsa 5000",
+                "harga" : 5000
+            },
+            {
+                "id_produk" : 2,
+                "nama_produk" : "XL Pulsa 10000",
+                "harga" : 10000
+            },
+            {
+                "id_produk" : 3,
+                "nama_produk" : "XL Pulsa 25000",
+                "harga" : 25000
+            }
+        ]
+    },
+    {
+        "id_provider" : 2,
+        "nama_provider" : "AXIS",
+        "list_produk" : [
+            {
+                "id_produk" : 1,
+                "nama_produk" : "AXIS Pulsa 5000",
+                "harga" : 5000
+            },
+            {
+                "id_produk" : 2,
+                "nama_produk" : "AXIS Pulsa 10000",
+                "harga" : 10000
+            },
+            {
+                "id_produk" : 3,
+                "nama_produk" : "AXIS Pulsa 25000",
+                "harga" : 25000
+            }
+        ]
+    },
+    {
+        "id_provider" : 3,
+        "nama_provider" : "INDOSAT",
+        "list_produk" : [
+            {
+                "id_produk" : 1,
+                "nama_produk" : "Indosat Pulsa 5000",
+                "harga" : 5000
+            },
+            {
+                "id_produk" : 2,
+                "nama_produk" : "Indosat Pulsa 10000",
+                "harga" : 10000
+            },
+            {
+                "id_produk" : 3,
+                "nama_produk" : "Indosat Pulsa 25000",
+                "harga" : 25000
+            }
+        ]
+    }
+]

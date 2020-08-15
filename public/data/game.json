@@ -1,0 +1,60 @@
+[
+    {
+        "id_provider" : 1,
+        "nama_provider" : "MOBILE LEGEND",
+        "list_produk" : [
+            {
+                "id_produk" : 1,
+                "nama_produk" : "MOBILE LEGEND 5000",
+                "harga" : 5000
+            },
+            {
+                "id_produk" : 2,
+                "nama_produk" : "MOBILE LEGEND 10000",
+                "harga" : 10000
+            },
+            {
+                "id_produk" : 3,
+                "nama_produk" : "MOBILE LEGEND 25000",
+                "harga" : 25000
+            }
+        ]
+    },
+    {
+        "id_provider" : 2,
+        "nama_provider" : "FREE FIRE",
+        "list_produk" : [
+            {
+                "id_produk" : 1,
+                "nama_produk" : "FREE FIRE 5000",
+                "harga" : 5000
+            },
+            {
+                "id_produk" : 2,
+                "nama_produk" : "FREE FIRE 10000",
+                "harga" : 10000
+            },
+            {
+                "id_produk" : 3,
+                "nama_produk" : "FREE FIRE 25000",
+                "harga" : 25000
+            }
+        ]
+    },
+    {
+        "id_provider" : 3,
+        "nama_provider" : "PUBG",
+        "list_produk" : [
+            {
+                "id_produk" : 1,
+                "nama_produk" : "PUBG 5000",
+                "harga" : 5000
+            },
+            {
+                "id_produk" : 2,
+                "nama_produk" : "PUBG 10000",
+                "harga" : 10000
+            }
+        ]
+    }
+]

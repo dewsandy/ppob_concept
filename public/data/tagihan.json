@@ -1,0 +1,14 @@
+[
+    {
+        "id_provider" : 1,
+        "nama_provider" : "FIF"
+    },
+    {
+        "id_provider" : 2,
+        "nama_provider" : "ADIRA"
+    },
+    {
+        "id_provider" : 3,
+        "nama_provider" : "BAF"
+    }
+]

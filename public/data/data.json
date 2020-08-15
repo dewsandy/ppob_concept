@@ -1,31 +1,71 @@
 {
     "rc" : 200,
     "rd" : "Sukses",
+    "id_channel" : "Pulsa",
+    "icon" : "",
     "data" : [
         {
-            "id_ppob" : 1,
-            "ppob" : "Isi Pulsa",
-            "icon" : ""
+            "id_provider" : 1,
+            "nama_provider" : "XL",
+            "list_produk" : [
+                {
+                    "id_produk" : 1,
+                    "nama_produk" : "XL Pulsa 5000",
+                    "harga" : 5000
+                },
+                {
+                    "id_produk" : 2,
+                    "nama_produk" : "XL Pulsa 10000",
+                    "harga" : 10000
+                },
+                {
+                    "id_produk" : 1,
+                    "nama_produk" : "XL Pulsa 25000",
+                    "harga" : 25000
+                }
+            ]
         },
         {
-            "id_ppob" : 2,
-            "ppob" : "Paket Data",
-            "icon" : ""
+            "id_provider" : 2,
+            "nama_provider" : "AXIS",
+            "list_produk" : [
+                {
+                    "id_produk" : 1,
+                    "nama_produk" : "AXIS Pulsa 5000",
+                    "harga" : 5000
+                },
+                {
+                    "id_produk" : 2,
+                    "nama_produk" : "AXIS Pulsa 10000",
+                    "harga" : 10000
+                },
+                {
+                    "id_produk" : 1,
+                    "nama_produk" : "AXIS Pulsa 25000",
+                    "harga" : 25000
+                }
+            ]
         },
         {
-            "id_ppob" : 3,
-            "ppob" : "Token Listrik",
-            "icon" : ""
-        },
-        {
-            "id_ppob" : 4,
-            "ppob" : "Voucher Game",
-            "icon" : ""
-        },
-        {
-            "id_ppob" : 5,
-            "ppob" : "Emoney",
-            "icon" : ""
+            "id_provider" : 2,
+            "nama_provider" : "INDOSAT",
+            "list_produk" : [
+                {
+                    "id_produk" : 1,
+                    "nama_produk" : "Indosat Pulsa 5000",
+                    "harga" : 5000
+                },
+                {
+                    "id_produk" : 2,
+                    "nama_produk" : "Indosat Pulsa 10000",
+                    "harga" : 10000
+                },
+                {
+                    "id_produk" : 1,
+                    "nama_produk" : "Indosat Pulsa 25000",
+                    "harga" : 25000
+                }
+            ]
         }
     ]
 }

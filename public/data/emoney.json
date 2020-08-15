@@ -1,0 +1,65 @@
+[
+    {
+        "id_provider" : 1,
+        "nama_provider" : "OVO",
+        "list_produk" : [
+            {
+                "id_produk" : 1,
+                "nama_produk" : "OVO 5000",
+                "harga" : 5000
+            },
+            {
+                "id_produk" : 2,
+                "nama_produk" : "OVO 10000",
+                "harga" : 10000
+            },
+            {
+                "id_produk" : 3,
+                "nama_produk" : "OVO 25000",
+                "harga" : 25000
+            }
+        ]
+    },
+    {
+        "id_provider" : 2,
+        "nama_provider" : "GOPAY",
+        "list_produk" : [
+            {
+                "id_produk" : 1,
+                "nama_produk" : "GOPAY 5000",
+                "harga" : 5000
+            },
+            {
+                "id_produk" : 2,
+                "nama_produk" : "GOPAY 10000",
+                "harga" : 10000
+            },
+            {
+                "id_produk" : 3,
+                "nama_produk" : "GOPAY 25000",
+                "harga" : 25000
+            }
+        ]
+    },
+    {
+        "id_provider" : 3,
+        "nama_provider" : "DANA",
+        "list_produk" : [
+            {
+                "id_produk" : 1,
+                "nama_produk" : "DANA 5000",
+                "harga" : 5000
+            },
+            {
+                "id_produk" : 2,
+                "nama_produk" : "DANA 10000",
+                "harga" : 10000
+            },
+            {
+                "id_produk" : 3,
+                "nama_produk" : "DANA 25000",
+                "harga" : 25000
+            }
+        ]
+    }
+]
